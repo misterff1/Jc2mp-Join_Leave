@@ -14,4 +14,4 @@ function UIPopup:ShowPopup(infoTable)
 	end
 end
 
-uipopup = UIPopup()
+UIPopup = UIPopup()
