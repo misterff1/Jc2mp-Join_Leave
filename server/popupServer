@@ -37,4 +37,4 @@ function UIPopup:PlayerQuit( args )
    
 end
 
-uipopup = UIPopup()
+UIPopup = UIPopup()
