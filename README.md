@@ -1,4 +1,4 @@
-Join/leave using ingame UI
+Join/leave notifier using ingame UI
 ================
 
 A join/leave system that uses the in-game UI to show player join and player leave messages. Until now this was done in the chat, but was not used by most server owners to avoid chat flooding.
