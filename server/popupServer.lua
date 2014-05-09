@@ -21,18 +21,18 @@ end
 
 function UIPopup:PlayerJoin( args )
 
-   self:SendServerPopup("Join: " .. args.player:GetName() .. " joined the server!", false)
+   self:SendServerPopup(args.player:GetName() .. " joined the server!", false)
 
-   --self:SendServerPopup("Join: " .. args.player:GetName() .. " joined the server!", true)
+   --self:SendServerPopup(args.player:GetName() .. " joined the server!", true)
    --Use the commented line above instead of the uncommented line to show the achievement icon in the popup--
 
 end
 
 function UIPopup:PlayerQuit( args )
    
-   self:SendServerPopup("Leave: " .. args.player:GetName() .. " left the server!", false)
+   self:SendServerPopup(args.player:GetName() .. " left the server!", false)
 
-   --self:SendServerPopup("Leave: " .. args.player:GetName() .. " left the server!", true)
+   --self:SendServerPopup(args.player:GetName() .. " left the server!", true)
    --Use the commented line above instead of the uncommented line to show the achievement icon in the popup--
    
 end
