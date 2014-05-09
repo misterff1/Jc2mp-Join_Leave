@@ -24,7 +24,7 @@ function UIPopup:PlayerJoin( args )
    self:SendServerPopup("Join: " .. args.player:GetName() .. " joined the server!", false)
 
    --self:SendServerPopup("Join: " .. args.player:GetName() .. " joined the server!", true)
-   --Use the commented line above instead of the other one to show the icon in the popup--
+   --Use the commented line above instead of the uncommented line to show the achievement icon in the popup--
 
 end
 
