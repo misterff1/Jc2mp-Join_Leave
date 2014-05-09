@@ -33,7 +33,7 @@ function UIPopup:PlayerQuit( args )
    self:SendServerPopup("Leave: " .. args.player:GetName() .. " left the server!", false)
 
    --self:SendServerPopup("Leave: " .. args.player:GetName() .. " left the server!", false)
-   --Use the commented line above instead of the other one to show the icon in the popup--
+   --Use the commented line above instead of the uncommented line to show the achievement icon in the popup--
    
 end
 
